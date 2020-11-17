@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  background-color: #3762b9;
+  color: #FFF;
+  padding: 32px;
+}
+
+.list {
+  margin: 15px 0;
+  /* border-top: 1px solid #f1f1f1; */
+}
+.item {
+  margin: 15px 0;
+  padding: 20px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #282c34;
+  position: relative;
+}
+
+.recorded {
+  color:  red;
+}
+
+
+.item .item-detail {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* border-top: 1px solid black; */
+}
+
+
+.item .item-detail.active {
+  display: block;
+}
+
